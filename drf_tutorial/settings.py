@@ -116,7 +116,7 @@ USE_TZ = True
 DEBUG = False
 
 
-STATIC_ROOT = '/Users/maliao/workspace/drf_tutorial/asset'
+STATIC_ROOT = os.path.join(BASE_DIR, 'asset')
 
 STATIC_URL = '/static/'
 
