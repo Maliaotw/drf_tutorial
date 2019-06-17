@@ -19,6 +19,14 @@ python manage.py runserver 0:8000
 
 ## uwsgi
 
+run
+
 ```
 wsgi django.ini
+```
+
+static file
+
+```
+asset
 ```
